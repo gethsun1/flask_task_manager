@@ -80,39 +80,3 @@ This is a Flask web application that generates detailed to-do lists based on use
 └── README.md            # This README file
 ```
 
-## Contributing
-
-1. **Fork the repository**
-2. **Create a new branch**
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. **Make your changes**
-4. **Commit your changes**
-
-   ```bash
-   git commit -m "Add some feature"
-   ```
-
-5. **Push to the branch**
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. **Open a pull request**
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgements
-
-- [OpenAI](https://openai.com/) for the GPT-3.5-turbo model
-- [Stable Diffusion](https://stability.ai/) for the image generation technology
-
-## Contact
-
-For any questions or inquiries, please contact [yourname@example.com](mailto:-gethsun09@gmail.om).
