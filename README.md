@@ -44,7 +44,8 @@ This is a Flask web application that generates detailed to-do lists based on use
 
 4. **Set your OpenAI API key**
 
-   Replace `'YOUR_API_KEY'` in `app.py` with your actual OpenAI API key.
+   Replace `'OPENAI_API_KEY'` in `.env` in your local environment with your OpenAI API key.
+   If it is a prod environment, make sure to set it as an environment variable.
 
 ### Running the App
 
@@ -79,4 +80,3 @@ This is a Flask web application that generates detailed to-do lists based on use
 ├── requirements.txt     # List of dependencies
 └── README.md            # This README file
 ```
-
