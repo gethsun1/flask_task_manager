@@ -28,15 +28,5 @@ def generate_task():
     task_list = response['choices'][0]['message']['content'].strip()
     return jsonify(task_list=task_list, task_date=task_date)
 
-@app.route('/generate_image', methods=['POST'])
-def generate_image():
-    task_description = request.json['task']
-    image_url = generate_image_from_task(task_description)  # Placeholder for the image generation function
-    return jsonify(image_url=image_url)
-
-def generate_image_from_task(description):
-    # Implement the function to generate image using Stable Diffusion
-    return "path/to/generated/image.jpg"
-
 if __name__ == '__main__':
     app.run(debug=True)
