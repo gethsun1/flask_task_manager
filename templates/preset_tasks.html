@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preset Tasks - AI Task Manager</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Preset Tasks</h1>
+        <div class="preset-tasks">
+            <div class="task-card">
+                <i class="fas fa-file-alt"></i>
+                <div class="task-card-content">
+                    <h3>Document Assistant</h3>
+                    <p>Get summary of any document in seconds. Chat with document, ask questions.</p>
+                </div>
+            </div>
+            <div class="task-card">
+                <i class="fas fa-plane"></i>
+                <div class="task-card-content">
+                    <h3>Travel Planner</h3>
+                    <p>Create personalized travel recommendations.</p>
+                </div>
+            </div>
+            <div class="task-card">
+                <i class="fas fa-book"></i>
+                <div class="task-card-content">
+                    <h3>Bedtime Stories for Children</h3>
+                    <p>Create bedtime stories for kids with vivid pictures.</p>
+                </div>
+            </div>
+            <div class="task-card">
+                <i class="fas fa-envelope"></i>
+                <div class="task-card-content">
+                    <h3>Website Cooperation Email Generator</h3>
+                    <p>Generate website cooperation email in just one click.</p>
+                </div>
+            </div>
+            <div class="task-card">
+                <i class="fas fa-camera"></i>
+                <div class="task-card-content">
+                    <h3>SnapSolver</h3>
+                    <p>Instantly solve problems by analyzing uploaded images.</p>
+                </div>
+            </div>
+        </div>
+        <a href="{{ url_for('index') }}" class="button">Back to Main Page</a>
+    </div>
+</body>
+
+</html>

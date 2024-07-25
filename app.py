@@ -9,6 +9,10 @@ app = Flask(__name__)
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
+@app.route('/preset-tasks')
+def preset_tasks():
+    return render_template('preset_tasks.html')
+
 @app.route('/')
 def index():
     return render_template('index.html')

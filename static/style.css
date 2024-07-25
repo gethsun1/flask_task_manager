@@ -15,8 +15,9 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    width: 90%;
     max-width: 600px;
+    margin: 20px auto;
 }
 
 h1 {
@@ -30,7 +31,8 @@ form {
     gap: 10px;
 }
 
-input[type="text"], input[type="date"] {
+input[type="text"],
+input[type="date"] {
     padding: 10px;
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -71,4 +73,100 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button,
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.preset-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.task-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid #ddd;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.task-card:hover {
+    transform: translateY(-5px);
+}
+
+.task-card-content {
+    flex: 1;
+}
+
+.task-card i {
+    font-size: 2em;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.task-card h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.task-card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+/* 
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .preset-tasks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+@media (min-width: 768px) {
+    .container {
+        padding: 30px;
+    }
 }
